@@ -16,7 +16,7 @@
 @implementation TTDrawViewController
 
 - (void)loadView {
-    self.view= [[TTDrawView alloc] initWithFrame:CGRectZero];
+    self.view = [[TTDrawView alloc] initWithFrame:CGRectZero];
 }
 
 - (void)viewDidLoad {

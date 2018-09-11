@@ -70,7 +70,7 @@
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
     for (UITouch *touch in touches) {
-        NSValue *key=[NSValue valueWithNonretainedObject:touch];
+        NSValue *key = [NSValue valueWithNonretainedObject:touch];
         [self.finishLines addObject:self.curLines[key]];
         [self.curLines removeObjectForKey:key];
     }
@@ -79,7 +79,7 @@
 
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
     for (UITouch *touch in touches) {
-        NSValue *key=[NSValue valueWithNonretainedObject:touch];
+        NSValue *key = [NSValue valueWithNonretainedObject:touch];
         [self.curLines removeObjectForKey:key];
     }
     [self setNeedsDisplay];

@@ -12,7 +12,6 @@
 		B4F308ABDA4F21B18C97770C /* TTDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F309A496AA29A69B8C6862 /* TTDrawView.m */; };
 		B4F3099AC12CC8C5D840179F /* TTLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F30FF9C2F9D5DC827B17BF /* TTLine.m */; };
 		B4F309F7D39BF5199744F001 /* TouchTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F30D1C89E7EB32670A0887 /* TouchTrackerUITests.m */; };
-		B4F309FFF187FEC1F526BBAD /* TTTouchTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F301AB18CFF78B99728090 /* TTTouchTestView.m */; };
 		B4F30C0E8DA0B85348A64B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F307CB07AA94A64AD3F8CF /* Assets.xcassets */; };
 		B4F30FDB301C6413664D7E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F30557195E912D08C7A20C /* main.m */; };
 		FAE415F921460A86009723C9 /* TTDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE415F821460A86009723C9 /* TTDrawViewController.m */; };
@@ -37,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		B4F30036BF2814C7320B8866 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
-		B4F301AB18CFF78B99728090 /* TTTouchTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTouchTestView.m; sourceTree = "<group>"; };
-		B4F3020B82A1E56D5C477926 /* TTTouchTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTouchTestView.h; sourceTree = "<group>"; };
 		B4F3025C6B87AC490344D68A /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F303B0F597712408CCB4EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4F30557195E912D08C7A20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,8 +94,6 @@
 				B4F30EC54B3B369191F7F2EE /* TTDrawView.h */,
 				FAE415F721460A86009723C9 /* TTDrawViewController.h */,
 				FAE415F821460A86009723C9 /* TTDrawViewController.m */,
-				B4F301AB18CFF78B99728090 /* TTTouchTestView.m */,
-				B4F3020B82A1E56D5C477926 /* TTTouchTestView.h */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -259,7 +254,6 @@
 				B4F3099AC12CC8C5D840179F /* TTLine.m in Sources */,
 				B4F308ABDA4F21B18C97770C /* TTDrawView.m in Sources */,
 				FAE415F921460A86009723C9 /* TTDrawViewController.m in Sources */,
-				B4F309FFF187FEC1F526BBAD /* TTTouchTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,6 @@
 
 
 @interface TTLine : NSObject
-@property (nonatomic) CGPoint start;
-@property (nonatomic) CGPoint end;
+@property(nonatomic) CGPoint start;
+@property(nonatomic) CGPoint end;
 @end
