@@ -10,4 +10,7 @@
 @interface TTLine : NSObject
 @property (nonatomic) CGPoint start;
 @property (nonatomic) CGPoint end;
+-(double) angleRadio;
+-(BOOL) nearPoint:(CGPoint) point distance:(double)distance;
+-(void) translate:(CGPoint)translation;
 @end
